@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.imgfit{
+    width: 100%;
+}
+
+/* Global Css Here */
+/* horizontal slider starts here */
+.horSLider{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%) , url(../images/sliderBg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sliderPositioning{
+      /* background-color: red; */
+      width: 500px;
+      height:300px;
+}
+.slick-prev { 
+    top: -30px;
+    left: 220px;
+    transform: rotate(90deg);
+}
+/* horizontal slider ends here */
+.varSLider{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%) , url(../images/sliderBg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.varsliderPositioning {
+    /* background-color: red; */
+    width: 500px;
+    height:280px;
+}
+.slick-next {
+    top: 344px;
+    right: 254px;
+    transform: rotate(90deg);
+}
+/* vertical slider starts here */
+
+/* vertical slider ends here */
+/* venbox starts here */
+
+
+/* venbox ends here */
